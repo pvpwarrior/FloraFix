@@ -47,7 +47,7 @@ class GeminiService {
       print("Processing the image...");
 
       final prompt =
-          TextPart('Ignore ALL previous data. You are a plant doctor. You are given an image of a plant with some problem, give the species, disease and its remedies in the specified format ONLY. No other text to be given as output. If the plant is healthy, say healthy and no remedy in their respective placeholder. If the image is not of a plant, say not a plant in the species placeholder. Elaborate Give it in a Map<String, dynamic>. Give data about the plant in the given JSON schema:\n\n'
+          TextPart('Ignore ALL previous data. You are a plant doctor. You are given an image of a plant with some problem, give the species, disease and its remedies in the specified format ONLY. No other text to be given as output. Elaborate the diagnosis and remedy as though you are explaining to a farmer. Give it in a Map<String, dynamic>. Give data about the plant in the given JSON schema, it should be a single json:\n\n'
               'Species of the plant = {"species": string}\n'
               'Detected disease = {"disease": string}\n'
               'Suggested Remedies = {"remedy": string}\n');

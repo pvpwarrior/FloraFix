@@ -51,7 +51,8 @@ class QueryPage extends StatelessWidget {
                 ),
                 labelText: 'Enter additional info',
                 focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Color.fromARGB(255, 52, 199, 89), width: 1.0),
+                  borderSide: BorderSide(
+                      color: Color.fromARGB(255, 52, 199, 89), width: 1.0),
                 ),
               ),
               maxLines: 5,

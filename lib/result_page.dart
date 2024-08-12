@@ -66,6 +66,13 @@ class ResultPage extends StatelessWidget {
                 ]
               ],
             ),
+            BackButton(
+              style: ElevatedButton.styleFrom(
+                foregroundColor: Colors.black,
+                backgroundColor:
+                    Color.fromARGB(255, 205, 237, 163), // Text color
+              ),
+            )
           ],
         ),
       ),
