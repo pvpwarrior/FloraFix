@@ -15,7 +15,7 @@ class QueryPage extends StatefulWidget {
 
 class _QueryPageState extends State<QueryPage> {
   final GeminiService geminiService = GeminiService(
-    apiKey: 'AIzaSyCL9XqiKO15b7lVftAtStwZVwDSvIBcMYU', // Replace with your actual API key
+    apiKey: 'AIzaSyA3pbYRv3gP4tTR12UEhshlGwRyCXjV40s', // Replace with your actual API key
   );
 
   final TextEditingController _infoController = TextEditingController();

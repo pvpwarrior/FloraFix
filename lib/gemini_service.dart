@@ -11,7 +11,7 @@ class GeminiService {
   // final model = GenerativeModel(model: 'gemini-1.5-flash', apiKey: "AIzaSyAMYwRLYUOnPXtqInbEjbWSSTgRze5zKwA");
   final model = GenerativeModel(
       model: 'gemini-1.5-pro',
-      apiKey: "AIzaSyCL9XqiKO15b7lVftAtStwZVwDSvIBcMYU",
+      apiKey: "AIzaSyA3pbYRv3gP4tTR12UEhshlGwRyCXjV40s",
       generationConfig: GenerationConfig(responseMimeType: 'application/json'));
 
 //   Future analyzePlant(String imagePath) async {
