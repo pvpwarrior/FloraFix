@@ -8,10 +8,10 @@ class GeminiService {
 
   GeminiService({required this.apiKey});
 
-  // final model = GenerativeModel(model: 'gemini-1.5-flash', apiKey: "AIzaSyCL9XqiKO15b7lVftAtStwZVwDSvIBcMYU");
+  // final model = GenerativeModel(model: 'gemini-1.5-flash', apiKey: "AIzaSyAMYwRLYUOnPXtqInbEjbWSSTgRze5zKwA");
   final model = GenerativeModel(
       model: 'gemini-1.5-pro',
-      apiKey: "AIzaSyCL9XqiKO15b7lVftAtStwZVwDSvIBcMYU",
+      apiKey: "AIzaSyAMYwRLYUOnPXtqInbEjbWSSTgRze5zKwA",
       generationConfig: GenerationConfig(responseMimeType: 'application/json'));
 
 //   Future analyzePlant(String imagePath) async {

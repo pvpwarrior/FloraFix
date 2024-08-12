@@ -66,6 +66,7 @@ class ResultPage extends StatelessWidget {
                 ]
               ],
             ),
+            SizedBox(height: 56),
             BackButton(
               style: ElevatedButton.styleFrom(
                 foregroundColor: Colors.black,
