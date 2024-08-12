@@ -18,7 +18,7 @@ class ResultPage extends StatelessWidget {
         child: ListView(
           children: [
             const Text(
-              'Selected Image',
+              'Results',
               style: TextStyle(
                 fontSize: 32,
                 fontWeight: FontWeight.bold,
