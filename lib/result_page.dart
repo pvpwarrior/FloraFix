@@ -488,7 +488,7 @@ class ResultPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 243, 255, 224),
       body: Padding(
-        padding: EdgeInsets.all(16.0),
+        padding: EdgeInsets.only(left: 15, top: 50, bottom: 50, right: 15),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
